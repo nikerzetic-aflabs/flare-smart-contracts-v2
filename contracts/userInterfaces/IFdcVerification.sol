@@ -7,6 +7,7 @@ import "./fdc/IConfirmedBlockHeightExistsVerification.sol";
 import "./fdc/IEVMTransactionVerification.sol";
 import "./fdc/IPaymentVerification.sol";
 import "./fdc/IReferencedPaymentNonexistenceVerification.sol";
+import "./fdc/IWeb2JsonVerification.sol";
 
 
 /**
@@ -18,5 +19,6 @@ interface IFdcVerification is
     IConfirmedBlockHeightExistsVerification,
     IEVMTransactionVerification,
     IPaymentVerification,
-    IReferencedPaymentNonexistenceVerification
+    IReferencedPaymentNonexistenceVerification,
+    IWeb2JsonVerification
 { }
